@@ -29,36 +29,46 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
+      "company": "VyV Bravo",
+      "position": "Senior Civil Engineer",
       "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "2021",
+      "endDate": "2023",
+      "summary": [
+        {"dot":"Led dynamic teams overseeing warehouse operations, administration, and technical aspects for pivotal projects, ensuring seamless execution and elevating team performance." 
+        },
+        {
+          "dot": "Spearheaded cross-functional collaboration, optimizing construction materials oversight and expense management with S10 software, enhancing operational efficiency."
+        },
+        {
+          "dot": "Implemented cost control enhancements, showcasing efficiency and strategic impact, resulting in a more favorable outlook for future projects."
+        }
+      ],
       "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
+      "institution": "Codeable",
+      "area": "FullStack Web Developer",
+      "startDate": "2023",
+      "endDate": "2024"
+
+    },
+    {
+      "institution": "University of Harvard",
+      "area": "CS50 Introduction to Computer Science",
+      "studyType": "Certicated",
+      "startDate": "2022",
+      "endDate": "2022"
+    }
+    ,
+    {
+      "institution": "Pontificia Universidad Católica del Perú",
+      "area": "Civil Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "startDate": "2011",
+      "endDate": "2017"
     }
   ],
   "awards": [

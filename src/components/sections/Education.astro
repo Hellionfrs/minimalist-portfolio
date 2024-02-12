@@ -1,7 +1,61 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
+import { education } from "@cv";
 ---
 
-<Section title ="Education">
-
+<Section title="Education">
+  <ul>
+    {
+      education.map(({ institution, area, studyType, startDate, endDate }) => {
+        return (
+          <li>
+            <header>
+              <h3>{institution}</h3>
+              <time>
+                {startDate}-{endDate}
+              </time>
+            </header>
+            <body>
+              {studyType ? (
+                <p>
+                  {area} - {studyType}
+                </p>
+              ) : (
+                <p>{area}</p>
+              )}
+            </body>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
+
+<style>
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  header h4 {
+    font-weight: 400;
+    color: #222;
+  }
+
+  time {
+    font-size: 0.85rem;
+    color: #555;
+  }
+</style>

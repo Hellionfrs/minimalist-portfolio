@@ -1,7 +1,70 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
+
+import { work } from "@cv";
 ---
 
-<Section title ="Experience">
-
+<Section title="Experience">
+  <ul class="work-list">
+    {
+      work.map(({ company, position, startDate, endDate, summary }) => {
+        return (
+          <li>
+            <header>
+              <div>
+                <h3>{company}</h3>
+                <h4>{position}</h4>
+              </div>
+              <time>
+                {startDate}-{endDate}
+              </time>
+            </header>
+            <body>
+              <ul class="summary-dots">
+                {summary.map((e) => {
+                  return (
+                    <li>
+                      <p>{e.dot}</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </body>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
+
+<style>
+  .work-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  header h4 {
+    font-weight: 400;
+    color: #222;
+  }
+
+  time {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  .summary-dots {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+  }
+</style>
