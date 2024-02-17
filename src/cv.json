@@ -51,6 +51,7 @@
     },
     {
       "company": "VyV Bravo",
+      "companyDescription": "Real Estate Company",
       "position": "Senior Civil Engineer",
       "url": "https://company.com",
       "startDate": "2021",
@@ -120,9 +121,84 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "HTML",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "keywords": ["Web Development"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Web Development"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Web Development"]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": ["Frontend Development"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Intermediate",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "Express",
+      "level": "Intermediate",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": ["Backend Development"]
+    },
+    {
+      "name": "SQL/POSTGRESQL",
+      "level": "Intermediate",
+      "keywords": ["Database Management"]
+    },
+    {
+      "name": "SupaBase",
+      "level": "Intermediate",
+      "keywords": ["Database Management"]
+    },
+    {
+      "name": "Prisma",
+      "level": "Intermediate",
+      "keywords": ["Database Management"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Version Control"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": ["Version Control"]
+    },
+    {
+      "name": "Vitest",
+      "level": "Beginner",
+      "keywords": ["Testing"]
+    },
+    {
+      "name": "Ruby",
+      "level": "Beginner",
+      "keywords": ["Testing"]
+    },
+    {
+      "name": "Ruby on Rails",
+      "level": "Beginner",
+      "keywords": ["Testing"]
     }
   ],
   "languages": [
