@@ -221,12 +221,39 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "year": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Trello Clone",
+      "isActive": true,
+      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
+      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
+      "url": "https://trello-clone-eight-black.vercel.app"
+    },
+    {
+      "name": "Trello Clone",
+      "isActive": true,
+      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
+      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
+      "url": "https://trello-clone-eight-black.vercel.app"
+    },
+    {
+      "name": "Trello Clone",
+      "isActive": true,
+      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
+      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
+      "url": "https://trello-clone-eight-black.vercel.app"
+    },
+    {
+      "name": "Trello Clone",
+      "isActive": true,
+      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
+      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
+      "url": "https://trello-clone-eight-black.vercel.app"
+    },
+    {
+      "name": "Trello Clone",
+      "isActive": true,
+      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
+      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
+      "url": "https://trello-clone-eight-black.vercel.app"
     }
   ]
 }
