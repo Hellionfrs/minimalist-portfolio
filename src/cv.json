@@ -29,6 +29,27 @@
   },
   "work": [
     {
+      "company": "Arialy SAC",
+      "companyDescription": "Digital Wallet Startup",
+      "position": "Intern Software Developer",
+      "url": "https://company.com",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": [
+        {"dot":"Setup a user-friendly Ruby on Rails-based digital wallet application, ensuring smooth local project setup for future developers through a detailed README file." 
+        },
+        {
+          "dot": "Contributed to the creation of reusable components with Ruby gem Phlex and visualized components using LookBook improving code scalability and maintainability."
+        },
+        {
+          "dot": "Independently managed GitHub issues, outlining new component requirements under senior supervision, showing initiative and adaptability."
+        },{
+          "dot": "Gained proficiency in collaborative practices like squash merges and Git techniques within CI/CD workflows."
+        }
+      ],
+      "highlights": ["Started the company"]
+    },
+    {
       "company": "VyV Bravo",
       "position": "Senior Civil Engineer",
       "url": "https://company.com",
@@ -46,6 +67,7 @@
       ],
       "highlights": ["Started the company"]
     }
+    
   ],
   "education": [
     {
@@ -124,7 +146,7 @@
   "projects": [
     {
       "name": "Project",
-      "startDate": "2019-01-01",
+      "year": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
       "highlights": ["Won award at AIHacks 2016"],
