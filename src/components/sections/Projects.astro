@@ -11,9 +11,14 @@ import { projects } from "@cv";
           <li>
             <article>
               <header>
-                <a href={url} title={`Take a look to ${name}`}>
-                  <h3>{name}</h3>
-                </a>
+                <h3>
+                  <a href={url} title={`Take a look to ${name}`}>
+                    {name}
+                  </a>
+                  {
+                    isActive && <span>&bull;</span>
+                  }
+                </h3>
                 <p>{description}</p>
               </header>
               <footer>
@@ -50,9 +55,10 @@ import { projects } from "@cv";
   article header {
     flex: 1;
   }
-
-  article h3 {
+  h3 span {
+    color: rgb(0, 255, 64);
   }
+
   article a {
     color: #111;
   }
