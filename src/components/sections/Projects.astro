@@ -15,9 +15,7 @@ import { projects } from "@cv";
                   <a href={url} title={`Take a look to ${name}`}>
                     {name}
                   </a>
-                  {
-                    isActive && <span>&bull;</span>
-                  }
+                  {isActive && <span>&bull;</span>}
                 </h3>
                 <p>{description}</p>
               </header>
@@ -82,8 +80,8 @@ import { projects } from "@cv";
   footer span {
     display: inline-flex;
     border-radius: 6px;
-    background: #888;
-    color: #fff;
+    background: #eee;
+    color: #000;
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.4rem;
