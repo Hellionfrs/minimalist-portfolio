@@ -1,54 +1,50 @@
-# Astro Starter Kit: Basics
+<h1 align="center">Minimilist Resume 🚀</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
+
+### 📑 [Summary]()
+[Minimialist CV](https://main--fredrs-portfolio.netlify.app/) is a simple web application that renders a minimalist CV with print-friendly layout.
+Built with Astro.js and CSS in order to make it quicker!
+Try it [here](https://main--fredrs-portfolio.netlify.app/)
+### 💡 [Features]()
+- 
+
+### ✨ [Demo](https://main--fredrs-portfolio.netlify.app/)
+Give it a try is already deployed using Netlify [Click here](https://main--fredrs-portfolio.netlify.app/)
+
+## Getting Started Locally
+1. Clone this repository
+```sh
+git clone git@github.com:Hellionfrs/minimalist-portfolio.git
+```
+
+1. Move to root 
+```sh
+cd cd minimalist-portofolio
+``` 
+1. Install dependencies
+```sh
+pnpm install
+```
+1. Start the local Server
 
 ```sh
-npm create astro@latest -- --template basics
+pnpm dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+1. Open cv.json and modify!
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Author
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+👤 **Fredy Rodriguez**
 
-## 🚀 Project Structure
+* Website: [Portfolio](https://main--fredrs-portfolio.netlify.app/)
+* Github: [@Hellionfrs](https://github.com/Hellionfrs)
+* LinkedIn: [@fredyrds](https://linkedin.com/in/fredyrds)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Show your support
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Give a ⭐️ if this project helped you!
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+***
