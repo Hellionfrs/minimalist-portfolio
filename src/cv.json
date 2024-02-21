@@ -12,7 +12,7 @@
       "postalCode": "---",
       "city": "Lima",
       "countryCode": "Peru",
-      "region": "Rimac"
+      "region": "Peru"
     },
     "profiles": [
       {
@@ -36,14 +36,16 @@
       "startDate": "2023",
       "endDate": "2023",
       "summary": [
-        {"dot":"Setup a user-friendly Ruby on Rails-based digital wallet application, ensuring smooth local project setup for future developers through a detailed README file." 
+        {
+          "dot": "Setup a user-friendly Ruby on Rails-based digital wallet application, ensuring smooth local project setup for future developers through a detailed README file."
         },
         {
           "dot": "Contributed to the creation of reusable components with Ruby gem Phlex and visualized components using LookBook improving code scalability and maintainability."
         },
         {
           "dot": "Independently managed GitHub issues, outlining new component requirements under senior supervision, showing initiative and adaptability."
-        },{
+        },
+        {
           "dot": "Gained proficiency in collaborative practices like squash merges and Git techniques within CI/CD workflows."
         }
       ],
@@ -57,7 +59,8 @@
       "startDate": "2021",
       "endDate": "2023",
       "summary": [
-        {"dot":"Led dynamic teams overseeing warehouse operations, administration, and technical aspects for pivotal projects, ensuring seamless execution and elevating team performance." 
+        {
+          "dot": "Led dynamic teams overseeing warehouse operations, administration, and technical aspects for pivotal projects, ensuring seamless execution and elevating team performance."
         },
         {
           "dot": "Spearheaded cross-functional collaboration, optimizing construction materials oversight and expense management with S10 software, enhancing operational efficiency."
@@ -68,7 +71,6 @@
       ],
       "highlights": ["Started the company"]
     }
-    
   ],
   "education": [
     {
@@ -76,7 +78,6 @@
       "area": "FullStack Web Developer",
       "startDate": "2023",
       "endDate": "2024"
-
     },
     {
       "institution": "University of Harvard",
@@ -84,8 +85,7 @@
       "studyType": "Certicated",
       "startDate": "2022",
       "endDate": "2022"
-    }
-    ,
+    },
     {
       "institution": "Pontificia Universidad Católica del Perú",
       "area": "Civil Engineering",
@@ -223,37 +223,45 @@
     {
       "name": "Trello Clone",
       "isActive": true,
-      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
-      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
+      "description": "Developed a user-friendly Trello clone using Stripe for subscriptions and Clerk for authentications",
+      "highlights": ["TypeScript", "Zod", "Authentication","Prisma", "SupaBase","FullStack"],
       "url": "https://trello-clone-eight-black.vercel.app"
     },
     {
-      "name": "Trello Clone",
-      "isActive": true,
-      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
-      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
-      "url": "https://trello-clone-eight-black.vercel.app"
+      "name": "Postable",
+      "isActive": false,
+      "description": "Implemented a social media platform API using TypeScript and Express.js",
+      "highlights": [
+        "TypeScript",
+        "Zod",
+        "JWT",
+        "Three Layer Arquitecture",
+        "PostgresQL",
+        "CRUD",
+        "API"
+      ],
+      "url": "https://github.com/Hellionfrs/postable-api"
     },
     {
-      "name": "Trello Clone",
+      "name": "React Showcase",
       "isActive": true,
-      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
-      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
-      "url": "https://trello-clone-eight-black.vercel.app"
+      "description": "Is a web application showcasing a collection of React components and features",
+      "highlights": ["React", "React Router", "JavaScript", "Vite", "Vitest", "CSS Modules"],
+      "url": "https://courageous-twilight-21a9e1.netlify.app/"
     },
     {
-      "name": "Trello Clone",
-      "isActive": true,
-      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
-      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
-      "url": "https://trello-clone-eight-black.vercel.app"
+      "name": "API Restaurant's Reviews",
+      "isActive": false,
+      "description": "Developed RESTful API for a Restaurant's review system",
+      "highlights": ["TypeScript", "Zod", "JavaScript", "Express", "Backend", "PostgresQL", "CRUD","RestFul API"],
+      "url": "https://github.com/Hellionfrs/restaurants-reviews-api"
     },
     {
-      "name": "Trello Clone",
+      "name": "React Games",
       "isActive": true,
-      "description": "Developed a user-friendly Trello clone using TypeScript and Next.js",
-      "highlights": ["TypeScript", "Zod", "Prisma", "SupaBase"],
-      "url": "https://trello-clone-eight-black.vercel.app"
+      "description": "Web App that showcase tictactoe and pokemon's collector games implemented using React and Vite",
+      "highlights": ["React", "JavaScript", "CSS", "Vite", "React hooks"],
+      "url": "https://react-games-hellion.netlify.app/"
     }
   ]
 }
