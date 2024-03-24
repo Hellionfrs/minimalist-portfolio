@@ -199,6 +199,26 @@
       "name": "Ruby on Rails",
       "level": "Beginner",
       "keywords": ["Testing"]
+    },
+    {
+      "name": "NPM",
+      "level": "Beginner",
+      "keywords": ["Testing"]
+    },
+    {
+      "name": "Vercel",
+      "level": "Beginner",
+      "keywords": ["Deployment"]
+    },
+    {
+      "name": "Netlify",
+      "level": "Beginner",
+      "keywords": ["Deployment"]
+    },
+    {
+      "name": "Insomnia",
+      "level": "Beginner",
+      "keywords": ["API client"]
     }
   ],
   "languages": [
